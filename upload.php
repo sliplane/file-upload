@@ -11,19 +11,6 @@ if (isset($_POST['submit'])) {
         $uploadOk = 0;
     }
 
-    // Check file size (limit to 5MB)
-    if ($_FILES["file"]["size"] > 5000000) {
-        echo "Sorry, your file is too large.";
-        $uploadOk = 0;
-    }
-
-    // Allow certain file formats (optional)
-    $allowedTypes = array("jpg", "png", "jpeg", "gif", "pdf");
-    if (!in_array($fileType, $allowedTypes)) {
-        echo "Sorry, only JPG, JPEG, PNG, GIF, & PDF files are allowed.";
-        $uploadOk = 0;
-    }
-
     // Check if $uploadOk is set to 0 by an error
     if ($uploadOk == 0) {
         echo "Sorry, your file was not uploaded.";
