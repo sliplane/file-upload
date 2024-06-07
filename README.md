@@ -7,7 +7,7 @@ Utility to upload files to your server.
 ### With Github
 
 1. Fork the repo
-2. Login to sliplane
+2. Login to Sliplane
 3. Go to your project and click "Deploy Service"
 4. Select "GitHub" as the deploy source
 5. Select the "file-upload" repository. Note: if the repository does not show up, you might need to configure repository access first
@@ -20,7 +20,7 @@ You can now go to your services ...sliplane.app domain to upload files to your s
 
 ### With Docker Hub
 
-1. Login to sliplane
+1. Login to Sliplane
 2. Go to your project and click "Deploy Service"
 3. Select "Docker Hub" as the deploy source
 4. Search for "sliplane/file-upload". Note: if the image does not show up, click on the "Use as typed" button
